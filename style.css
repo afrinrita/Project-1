@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+/* General CSS */
+body{
+	font-family: 'Lobster', cursive;
+	background: #fff;
+}
+a{
+	text-decoration: none;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+ul{
+	margin-bottom: 0;
+	list-style: none;
+	padding: 0;
+}
+p{
+	font-size: 15px;
+	color: #999999;
+}
+
+/* Header ARea */
+header{
+	background: #f5f9f9;
+	padding: 20px 0;
+}
+.menu{}
+.menu ul{
+	display: flex;
+	justify-content: flex-end;
+}
+.menu ul li{
+
+}
+.menu ul li a{
+	display: block;
+	padding: 0 27px;
+	text-transform: capitalize;
+	font-family: 'Lobster', cursive;
+	color: #454444;
+	font-weight: 600;
+	font-size: 22px;
+
+}
+.menu ul li a:hover{}
+
+/* Banner */
+.banner{
+	background: url('images/cover.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	text-align: center;
+	padding: 150px 0 85px;
+}
+.banner-text{
+
+}
+.banner-text h1{
+	color: #fff;
+	font-size: 80px;
+	text-transform: uppercase;
+	font-weight: 800;
+	margin-bottom: 30px;
+}
+.banner-text p{
+	color: #fff;
+	font-size: 20px;
+	border-top: 2px solid #15a3f9;
+	display: inline-block;
+	padding: 30px 20px;
+}
+.banner-buttons{}
+.banner-buttons a{
+	color: #fff;
+	border: 1px solid #15a3f9;
+	padding: 10px 30px;
+}
+.banner-buttons i{
+	display: block;
+	margin-top: 175px;
+	color: #fff;
+}
+
+/* About */
+
+.about{
+	padding: 85px 0;
+	background: #f5f9f9;
+}
+.sec-title{
+	text-align: center;
+	margin-bottom: 30px;
+}
+.sec-title h2{
+	color: #2d3950;
+	font-size: 40px;
+}
+.about-content p{
+	color: #999999;
+	font-size: 20px;
+	text-align: center;
+}
+
+/* Service */
+.service{
+	background: #fff;
+	padding: 85px 0;
+}
+.service-item{
+	
+	text-align: center;
+}
+.service-icon{
+	background: linear-gradient(to right, #47b9ff 50%, #5fc3ff 50%);
+	width: 70px;
+	height: 70px;
+	margin: 0 auto 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.service-icon i{
+	color: #fff;
+	font-size: 35px;
+}
+.service-text{
+	padding: 0 25px;
+}
+.service-text h5{
+	color: #2d3950;
+	font-size: 22px;
+}
+.service-text p{
+	color: #999999;
+}
+
+/* Work */
+.work{
+	background: #f5f9f9;
+	padding: 85px 0;
+}
+.work-item{
+	position: relative;
+	margin-bottom: 25px;
+}
+.work-item img{
+	width: 100%;
+}
+.work-overlay{
+	background: rgba(21, 163, 249, 0.7);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0;
+	transition: .5s;
+}
+.work-overlay ul{
+	display: flex;
+}
+.work-overlay ul li{
+	border: 1px solid #fff;
+	width: 40px;
+	height: 40px;
+	margin: 0 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.work-overlay ul li i{
+	color: #fff;
+}
+.work-item:hover .work-overlay{
+	opacity: 1;
+}
+
+/* Contact Area */
+
+.contact{
+    background: url('images/contact.png');    
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+
+}
+	
+.contact-overlay{ 
+	background: rgba(45, 57, 80, 0.9);
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+	
+	
+ }
+ .content{
+ 	margin-bottom: 50px;
+ }
+ .content h2{
+ 	color: #fff;
+ 	text-align: center;
+ 	padding: 25px 0;
+ }
+ .content p{
+ 	text-align: center;
+ 	margin-bottom: 30px
+ 	padding: 0;
+
+ }
+ .content input{
+ 	background: transparent; 	
+ 	border-color: #999999; 	
+ 	margin: 20px 20px;  		
+ 	display: block;
+ 	justify-content: center;
+ 	align-content: center;
+ 	margin-left: 450px;
+ 	width: 300px;
+
+ }
+ .content textarea{
+  	background: transparent; 	
+ 	border-color: #999999; 	
+ 	margin: 20px 20px;  		
+ 	display: block;
+ 	justify-content: center;
+ 	align-content: center;
+ 	margin-left: 450px;
+ 	width: 300px;
+ 	height: 150px;
+ }
+ .end-section{
+ 	margin-left: 450px;
+ 	display: flex;
+ 	margin-bottom: 40px;
+
+ }
+ .content h6{
+ 	color: #fff;
+
+ 	
+ }
+ .content a{
+ 	color: #fff;
+ 	font-size: 15px;
+ 	margin-left: 80px;
+ 	border: 1px solid #15a3f9;
+ 	padding: 5px 25px;
+ 	margin-bottom: 15px;
+ 	 }
+
+ 
+
+
+ /* Footer Area */
+
+
+.footer{
+	background: #fff;
+
+}
+.social-icon{	
+
+}
+.social-icon ul{
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: flex-end;
+
+	
+}
+.social-icon ul li{
+	width: 35px;
+	height: 35px;	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.social-icon ul li a{
+	display: flex;
+	justify-content: flex-end;
+	background: #15a3f9;
+	margin: 0 5px;
+
+}
+.social-icon i{
+	color: #fff;
+	
+}
+
+
+
+
+
+
